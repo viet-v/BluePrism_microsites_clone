@@ -52,8 +52,7 @@ a.nav-link {
     text-align: center;
     color: #ffffff;
     background-color: #0A72BA;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 20px;
 }
 .agenda_event_detail h2 {
     font-family: 'GothamMedium', sans-serif;
@@ -110,13 +109,13 @@ a.nav-link {
 
 .transform_wrapcontent {
     padding-top: 85px;
-    padding-bottom: 170px;
+    padding-bottom: 100px;
 }
 .transform_content {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .transform_line {
     position: absolute;
@@ -151,7 +150,6 @@ a.nav-link {
     border: none;
     border-radius: 4px;
     margin-left: 210px;
-    margin-top: 100px;
 }
 
 .countdown {
@@ -188,7 +186,7 @@ a.nav-link {
     background-color: #17171D;
     color: #ffffff;
     font-family: 'Arial', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
 }
 .copyright a {
@@ -209,8 +207,226 @@ a.nav-link {
 
 
 
-@media screen and (min-width: 1500px) {
-    .agenda_container {
-        max-width: 1460px;
+@media screen and (max-width: 1500px) {
+    a.nav-link {
+        font-size: 13px;
+        margin-left: 14px;
+    }
+
+    .header_title {
+        height: 320px;
+    }
+    .header_title h1 {
+        font-size: 60px;
+    }
+
+    .agenda_event_detail h2 {
+        font-size: 35px;
+    }
+    .agenda_event_detail p {
+        font-size: 30px;
+    }
+    .agenda_coming h2 {
+        font-size: 35px;
+    }
+    .agenda_coming p {
+        font-size: 30px;
+    }
+
+    .gradient-bg h2 {
+        font-size: 35px;
+    }
+
+    .transform_text h3 {
+        font-size: 35px;
+    }
+
+    .countdown h2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .agenda_video video {
+        width: 720px;
+        height: auto;
+    }
+
+    .header_title {
+        height: 200px;
+    }
+    .header_title h1 {
+        font-size: 50px;
+    }
+
+    .agenda_event_detail h2 {
+        font-size: 30px;
+    }
+    .agenda_event_detail p {
+        font-size: 25px;
+    }
+    .agenda_coming h2 {
+        font-size: 30px;
+    }
+    .agenda_coming p {
+        font-size: 25px;
+    }
+
+    .gradient-bg h2 {
+        font-size: 30px;
+    }
+
+    .transform_text h3 {
+        font-size: 30px;
+    }
+    .transform_text p {
+        font-size: 18px;
+    }
+    .transform_logo {
+        width: 100px;
+    }
+    .transform_line {
+        transform: translateX(48px);
+    }
+    .transform_wrapcontent button {
+        font-size: 20px;
+        margin-top: 0;
+        margin-left: 150px;
+    }
+
+    .countdown h2 {
+        font-size: 30px;
+    }
+
+    .counting_unit {
+        font-size: 20px;
+    }
+    .counting_unit span {
+        font-size: 50px
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .agenda_video video {
+        width: 480px;
+        height: auto;
+    }
+
+    .header_title {
+        height: 150px;
+    }
+    .header_title h1 {
+        font-size: 30px;
+    }
+
+    .agenda_event_detail h2 {
+        font-size: 20px;
+    }
+    .agenda_event_detail p {
+        font-size: 18px;
+    }
+    .agenda_coming, .agenda_video {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .agenda_coming h2 {
+        font-size: 20px;
+    }
+    .agenda_coming p {
+        font-size: 18px;
+    }
+
+    .gradient-bg {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .gradient-bg h2 {
+        font-size: 20px;
+    }
+
+    .transform_wrapcontent {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .transform_text {
+        margin-top: 0;
+    }
+    .transform_text h3 {
+        font-size: 20px;
+    }
+
+    .countdown h2 {
+        font-size: 20px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .contact a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .agenda_video video {
+        width: 300px;
+        height: auto;
+    }
+
+    .header_title {
+        height: 70px;
+    }
+    .header_title h1 {
+        font-size: 18px;
+    }
+
+    .agenda_event_detail h2 {
+        font-size: 16px;
+    }
+    .agenda_event_detail p {
+        font-size: 14px;
+    }
+    .agenda_coming h2 {
+        font-size: 16px;
+    }
+    .agenda_coming p {
+        font-size: 14px;
+    }
+
+    .gradient-bg h2 {
+        font-size: 16px;
+    }
+
+    .transform_text h3 {
+        font-size: 16px;
+    }
+    .transform_text p {
+        font-size: 14px;
+    }
+    .transform_logo {
+        width: 50px;
+    }
+    .transform_line {
+        transform: translateX(23px);
+    }
+    .transform_wrapcontent button {
+        font-size: 16px;
+        margin-left: 50px;
+    }
+
+    .countdown h2 {
+        font-size: 16px;
+    }
+
+    .counting_unit {
+        font-size: 13px;
+    }
+    .counting_unit span {
+        font-size: 24px
+    }
+
+    .copyright {
+        font-size: 9px;
     }
 }
